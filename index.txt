@@ -19,14 +19,9 @@
 
  if(!@$api_reqest || @$api_reqest->white_link or @$api_reqest->result == 0)
  {
- ?>
-<iframe src="https://www.inform.kz/" width="100%" height="100%"/>   
- <?php
-
+header("https://www.inform.kz/");
  }else{
-    ?>
-<iframe src="https://www.inform.kz/" width="100%" height="100%"/>   
- <?php
+header("https://www.inform.kz/");
  }
 </body>
 </html>
